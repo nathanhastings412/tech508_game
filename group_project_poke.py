@@ -57,14 +57,14 @@ print('height: {}'.format(height_formatted) + "(m)")
 print(f"Your Attack: {player_attack}")
 print('ability: {}'.format(ability['name']))
 
-print("\n--- CPU Pokémon ---")
+print("\n   CPU Pokemon    ")
 print(f"name: {cpu_name}")
 print(f"attack {cpu_attack}")
 print(f"weight: {cpu_weight}(kgs)")
 print(f"height: {cpu_height}(m)")
 
 
-print("\n--- battle results ---")
+print("\n    battle results   ")
 print(f"Your Pokémon: {pokemon_data['name'].title()}")
 print(f"Your Attack: {player_attack}")
 print(f"CPU Pokémon: {cpu_data['name'].title()}")
